@@ -23,6 +23,7 @@ public class Vetores{
             System.out.println("Digite as idades: ");
             idades[i] = input.nextInt();
         }
+
         // Impressão de inputs
         System.out.printf("[");
         for(int i = 0; i < qtdPessoas; i++){
@@ -32,5 +33,10 @@ public class Vetores{
             }
         }
         System.out.printf("]");
+    }
+
+    public static int calculoMedia(){
+        // Apenas para o java nao dar erro em teste
+        return -1;
     }
 }

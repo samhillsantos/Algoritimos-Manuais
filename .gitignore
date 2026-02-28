@@ -3,3 +3,5 @@
 
 # 2. Ignora pastas de documentação e todo o seu conteúdo
 **/docs_privado/
+
+*/*.class
