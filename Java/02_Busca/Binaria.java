@@ -3,7 +3,12 @@ import java.util.Arrays;
 
 public class Binaria{
 	public static int vetor[] = new int[11];
-	public static void gerarVetor(){
+
+    public static void main(String[] args){
+
+    }
+	
+    public static void gerarVetor(){
 		System.out.print("[");
 		for(int i = 1; i < vetor.length; i++){
 			vetor[i] = i;
@@ -13,9 +18,7 @@ public class Binaria{
 	}
 
 	public static int buscaBinaria(){
+
 		return -1;
-	}
-	public static void main(String[] agrs){
-		gerarVetor();
 	}
 }
